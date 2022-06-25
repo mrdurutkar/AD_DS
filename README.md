@@ -26,32 +26,58 @@ Project consists of a simple PowerShell script that walks the user through the a
 <h2>Program walk-through:</h2>
 
 <p align="center">
-Launch the utility: <br/>
-<img src="https://imgur.com/LKu90wv.png" height="80%" width="80%" alt=""/>
+Launch the Windows server 2019: <br/>
+<img src="https://imgur.com/jfYyUjI.png" height="80%" width="80%" alt=""/>
 <br />
 <br />
-Select the disk:  <br/>
-<img src="https://i.imgur.com/tcTyMUE.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+Add Active Directory Domain Services:  <br/>
+<img src="https://imgur.com/lDuL258.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 <br />
 <br />
-Enter the number of passes: <br/>
-<img src="https://i.imgur.com/nCIbXbg.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+Deploy AD: <br/>
+<img src="https://imgur.com/vwJPJhN.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 <br />
 <br />
-Confirm your selection:  <br/>
-<img src="https://i.imgur.com/cdFHBiU.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+Configure DHCP server:  <br/>
+<img src="https://imgur.com/gF1GKY3.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 <br />
 <br />
-Wait for process to complete (may take some time):  <br/>
-<img src="https://i.imgur.com/JL945Ga.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+Run PowerShell Code in that folder:  <br/>
+<img src="https://imgur.com/XcEPx5B.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 <br />
 <br />
-Sanitization complete:  <br/>
-<img src="https://i.imgur.com/K71yaM2.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+Creation of multiple users:  <br/>
+<img src="https://imgur.com/bmyuYej.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 <br />
+around 1k users are created:  <br/>
+<img src="https://imgur.com/HGch6hM.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 <br />
-Observe the wiped disk:  <br/>
-<img src="https://i.imgur.com/AeZkvFQ.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+Clients Ip address in internal network:  <br/>
+<img src="https://imgur.com/AgJfK1P.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<br />
+Client can ping internet:  <br/>
+<img src="https://imgur.com/AogpSCj.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<br />
+Tracerout on client PC:  <br/>
+<img src="https://imgur.com/MIUOHDs.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<br />
+Tracerout on domain controller:  <br/>
+<img src="https://imgur.com/2EtlF9I.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<br />
+User: sdilon logged in to the DC through Client1 computer:  <br/>
+<img src="https://imgur.com/rzslCmF.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<br />
+Another User: kpopek logged in to the DC through Client1 computer:  <br/>
+<img src="https://imgur.com/aaWVExq.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<br />
+AD Uers and Computer Pannel:  <br/>
+<img src="https://imgur.com/v7Bbdal.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<br />
+Admin logged in to Client1:  <br/>
+<img src="https://imgur.com/QcBgPCG.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<br />
+Server Manager presenting different resources:  <br/>
+<img src="https://imgur.com/sIoXPOz.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
 
 <!--
